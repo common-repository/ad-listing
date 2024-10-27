@@ -1,0 +1,73 @@
+.ad-container{
+	margin-bottom:15px;
+	padding:0px;
+}
+.ad-container .each-box{
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.ad-container .box{
+	background-color:#f0f0f0;
+	border:2px solid #f0f0f0;
+}
+.ad-container .box a{display:block;}
+.ad-container .box .img{
+	position:relative;
+	height:200px;
+	width:100%;
+	overflow:hidden;
+	background-color:#ffffff;
+}
+.ad-container .box .img img{
+	position:absolute;
+	width:100%;
+}
+
+.ad-container .box .title{
+	font-size:16px;
+	padding:0 7px;
+	text-transform:uppercase;
+}
+.ad-container .box .short-desc{
+	padding:0 7px;
+	margin:0 0 10px 0;
+	text-align:justify;
+}
+.ad-post{
+	border:1px solid #f0f0f0;
+	margin-top:20px;
+	border-radius:3px;
+}
+.ad-post .ad-title{
+	text-transform:uppercase;
+	background-color:#f1f1f1;
+	padding:0 10px ;
+	border-radius:3px;
+}
+.ad-post .ad-description{
+	text-align:justify;
+	color:#000000;
+	margin-bottom:10px;
+}
+.ad-post .image-gallery{
+	min-height:255px;
+	border:1px solid #f1f1f1;
+	border-radius:3px;
+	margin-bottom:10px;
+	overflow:hidden;
+	
+}
+.ad-post .image-gallery img{
+	position:absolute;
+	left:0;
+	top:0;
+}
+.ad-post .image-gallery img:first-child{
+	position:relative;
+}
+.ad-post .specification label{
+	background-color:#f1f1f1;
+	color:#000000;
+	display:block;
+	padding:5px;
+}

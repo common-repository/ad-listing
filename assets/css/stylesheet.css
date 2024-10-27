@@ -1,0 +1,48 @@
+
+input[type=text],input[type=tel],input[type=email],input[type=date],select,textarea{
+	width:100%;
+}
+.clear{clear:both;}
+
+/*select autocomplete*/
+
+/*listing grid*/
+table.wp-list-table #thumbnail{width:70px;}
+table.wp-list-table #feature{width:20px;}
+span.fa{font-size:18px;}
+/*end here*/
+
+/*listing gallery css*/
+#listing-gallery-container{padding-left:5px;}
+#listing-gallery-container .image{
+	width:28%;
+	float:left;
+	display:inline-block;
+	position:relative;
+	border:1px solid #f1f1f1;
+	margin-right:10px;
+}
+#listing-gallery-container .image img{
+	width:100%;
+}
+#listing-gallery-container .image a.btn{
+	text-decoration: none;
+	color: #FFFFFF;
+	background-color: #F22222;
+	font-weight: bold;
+	padding: 1px 5px;
+	font-size: 20px;
+	border-radius: 17px;	
+	border: 1px solid #ffffff;
+	position: absolute;
+    top: -6px;
+    left: 82%;
+	z-index:999;
+	display:none;
+}
+#listing-gallery-container .image:hover > a.btn{
+	display: inline-block;
+}
+/*END HERE*/
+
+.actions{display:flex;}
